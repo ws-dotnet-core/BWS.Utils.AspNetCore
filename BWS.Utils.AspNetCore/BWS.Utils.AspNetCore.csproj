@@ -3,6 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <Description>Some extensions for Asp.Net core / .net standard 2.0</Description>
+    <PackageIconUrl>https://github.com/ws-dotnet-core/BWS.Utils.AspNetCore/blob/master/icon.jpg?raw=true</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/ws-dotnet-core/BWS.Utils.AspNetCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ws-dotnet-core/BWS.Utils.AspNetCore</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>asp.net core csharp .net standard 2.0</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

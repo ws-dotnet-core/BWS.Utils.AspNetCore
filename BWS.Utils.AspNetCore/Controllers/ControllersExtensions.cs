@@ -20,7 +20,7 @@ namespace BWS.Utils.AspNetCore.Controllers {
         /// <param name="c"></param>
         /// <param name="model"></param>
         /// <returns></returns>
-        public static JsonResult JsonFormat(this Controller c, dynamic model)
+        public static Microsoft.AspNetCore.Mvc.JsonResult JsonFormat(this Controller c, dynamic model)
             => c.Json(model,
                 new JsonSerializerSettings {
                     ContractResolver = new LowercaseContractResolver(),

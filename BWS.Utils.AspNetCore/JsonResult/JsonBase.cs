@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace BWS.Utils.AspNetCore.JsonResult {
@@ -9,7 +10,7 @@ namespace BWS.Utils.AspNetCore.JsonResult {
     /// Jsonbase for response.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    [JsonObject]
+    [JsonObject(MemberSerialization = MemberSerialization.OptIn)]
     public class JsonBase<T> : Dictionary<string, object> where T : struct {
 
         /// <summary>
