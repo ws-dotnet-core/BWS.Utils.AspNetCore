@@ -3,6 +3,9 @@
 
 A extensions and helper for asp.net core 2.0
 
+## Travis CI (latest)
+ [![Build Status](https://travis-ci.org/ws-dotnet-core/BWS.Utils.AspNetCore.svg?branch=master)](https://travis-ci.org/ws-dotnet-core/BWS.Utils.AspNetCore)
+
 ## API List
 
 ### BWS.Utils.AspNetCore.Controllers
