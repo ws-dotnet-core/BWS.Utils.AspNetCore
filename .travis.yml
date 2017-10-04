@@ -7,5 +7,5 @@ install:
   - nuget restore BWS.Utils.AspNetCore.sln
   - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
-  - xbuild /p:Configuration=Release BWS.Utils.AspNetCore.sln
   - dotnet restore
+  - xbuild /p:Configuration=Release BWS.Utils.AspNetCore.sln
