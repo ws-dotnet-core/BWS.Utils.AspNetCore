@@ -7,4 +7,5 @@ install:
   - dotnet restore
   # - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
+  - cd XTEST
   - dotnet xunit
