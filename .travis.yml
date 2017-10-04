@@ -4,8 +4,7 @@ mono: none
 dotnet: 2.0.0
 dist: trusty
 install:
-  - nuget restore BWS.Utils.AspNetCore.sln
-  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
-script:
   - dotnet restore
+  # - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
+script:
   - xbuild /p:Configuration=Release BWS.Utils.AspNetCore.sln
