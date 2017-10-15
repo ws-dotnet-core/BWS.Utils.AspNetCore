@@ -3,9 +3,10 @@ solution: BWS.Utils.AspNetCore.sln
 mono: none
 dotnet: 2.0.0
 dist: trusty
-install:
-  - dotnet restore
+#install:
+#  - dotnet restore
   # - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
-  - cd XTEST
-  - dotnet xunit
+#  - cd XTEST
+#  - dotnet xunit
+  - dotnet restore
