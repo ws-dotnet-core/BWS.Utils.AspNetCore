@@ -9,9 +9,9 @@
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>asp.net core csharp .net standard 2.0</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <Version>1.0.2</Version>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>bruce_wayne.key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
