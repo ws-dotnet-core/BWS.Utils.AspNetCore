@@ -20,6 +20,14 @@ namespace JsonBase_TEST  {
 
             Assert.Equal("{\"status\":0,\"msg\":\"aaa\",\"content\":\"bbb\"}", json);
 
+            var jbase2 = new JsonBase<TestEnum> {
+                Status = TestEnum.A,
+                Message = "aaa"
+            };
+            var json2 = JsonConvert.SerializeObject(jbase2);
+
+            Assert.Equal("{\"status\":0,\"msg\":\"aaa\"}", json2);
+
         }
     }
 }

@@ -57,6 +57,12 @@ namespace BWS.Utils.AspNetCore.JsonResult {
             set => this["Content"] = value;
         }
 
+        /// <summary>
+        /// Check if the content should be serialized.
+        /// </summary>
+        /// <returns></returns>
+        public bool ShouldSerializeContent() => this.Content != null;
+
     }
 
 }
